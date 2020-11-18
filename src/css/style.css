@@ -346,3 +346,44 @@ body {
   height: 60px;
   background-color: #6EBBD3;
 }
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #1F2021;
+}
+
+.bl-1 {
+  padding-top: 83px;
+  padding-left: 80px;
+}
+
+.bl-1__text {
+  font-size: 48px;
+  line-height: 59px;
+  padding-bottom: 26px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+.bl-1__title {
+  font-size: 28px;
+  line-height: 91.2%;
+  padding-bottom: 92px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  width: 50%;
+}
+
+.button {
+  padding: 22px 75px 26px;
+  margin-right: 80px;
+  margin-top: 91px;
+  margin-left: 12px;
+  border-radius: 10px;
+  background-color: #6EBBD3;
+}
