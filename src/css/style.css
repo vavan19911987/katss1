@@ -376,14 +376,23 @@ body {
   padding-bottom: 92px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
-  width: 50%;
 }
 
 .button {
-  padding: 22px 75px 26px;
+  padding: 20px 75px;
   margin-right: 80px;
   margin-top: 91px;
   margin-left: 12px;
   border-radius: 10px;
   background-color: #6EBBD3;
+  color: #ffffff;
+}
+
+.checkbox {
+  margin-top: 24px;
+}
+
+.email {
+  padding: 20px 30px;
+  border-radius: 10px;
 }
