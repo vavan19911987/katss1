@@ -333,18 +333,17 @@ body {
   color: #000;
 }
 
+.up {
+  float: right;
+  background-color: #6EBBD3;
+}
+
 .up-up {
   position: relative;
   top: 22px;
   left: 21px;
-  text-align: center;
-}
-
-.up {
-  float: right;
-  width: 60px;
-  height: 60px;
-  background-color: #6EBBD3;
+  max-width: 60px;
+  max-height: 60px;
 }
 
 .footer {
