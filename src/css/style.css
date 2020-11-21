@@ -108,6 +108,17 @@ body {
   position: relative;
 }
 
+.head:after {
+  content: '';
+  position: absolute;
+  top: 6px;
+  left: 0;
+  right: 0;
+  bottom: 6px;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+
 .nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -122,12 +133,12 @@ body {
 }
 
 .nav__logo {
-  z-index: 1;
+  z-index: 3;
 }
 
 .nav__phone {
   position: relative;
-  z-index: 1;
+  z-index: 3;
   color: #ffffff;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
@@ -144,7 +155,7 @@ body {
 
 .nav__subtitle {
   position: relative;
-  z-index: 1;
+  z-index: 3;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   margin-top: 30px;
@@ -163,6 +174,7 @@ body {
   font-size: 18px;
   padding-right: 240px;
   line-height: 22px;
+  z-index: 3;
 }
 
 .nav__menu li {
@@ -354,6 +366,7 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   background-color: #1F2021;
+  margin-bottom: 114px;
 }
 
 .bl-1 {

@@ -10,14 +10,17 @@
     width: 100%
     position: relative
 
-// .head::before
-//     content: ''
-//     background: rgba(31, 32, 33, 0.473)
-//     background-repeat: no-repeat                    звтемнеение фона 
-//     background-position: 50% 50%
-//     max-width: 1280px
-//     width: 100%
-//     position: relative
+
+.head:after 
+  content: ''
+  position: absolute
+  top: 6px
+  left: 0
+  right: 0
+  bottom: 6px
+  background: rgba(0,0,0,.5)
+  z-index: 2
+
 
 
 .nav
@@ -26,7 +29,7 @@
     justify-content: space-between
     margin-top: 39px
     &__logo
-        z-index: 1
+        z-index: 3
 
 
     &__title
@@ -35,7 +38,7 @@
 
     &__phone
         position: relative
-        z-index: 1
+        z-index: 3
         color: $color-text
         +reg
         font-weight: bold
@@ -49,7 +52,7 @@
 
     &__subtitle
         position: relative
-        z-index: 1
+        z-index: 3
         +reg
         margin-top: 30px
         margin-bottom: 66px
@@ -63,6 +66,8 @@
         font-size: 18px
         padding-right: 240px
         line-height: 22px
+        z-index: 3
+
     &__menu li
         margin: 30px
     &__menu li a
