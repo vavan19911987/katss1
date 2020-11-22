@@ -401,11 +401,11 @@ body {
   color: #ffffff;
 }
 
-.checkbox {
-  margin-top: 24px;
-}
-
 .email {
   padding: 20px 30px;
   border-radius: 10px;
+}
+
+.check {
+  margin-top: 24px;
 }
