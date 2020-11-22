@@ -263,9 +263,7 @@ body {
     display: none;
   }
   .nav__text {
-    margin-right: 25px;
-    position: relative;
-    z-index: 3;
+    display: none;
   }
   .nav__subtitle {
     font-size: 25px;
