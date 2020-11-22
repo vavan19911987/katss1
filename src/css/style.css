@@ -386,13 +386,14 @@ body {
     margin: auto;
   }
   .fl__text {
-    color: red;
+    color: green;
     font-size: 15px;
     line-height: 15px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
   }
   .fl__sudtitle {
+    padding-right: 150px;
     font-size: 15px;
     line-height: 22px;
     font-family: 'Montserrat', sans-serif;
