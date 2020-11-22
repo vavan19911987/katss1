@@ -256,13 +256,14 @@ body {
     width: 60px;
   }
   .nav__menu {
-    padding-right: 50px;
+    padding-right: 30px;
     font-size: 15px;
   }
   .nav__phone {
     display: none;
   }
   .nav__text {
+    margin-right: 25px;
     position: relative;
     z-index: 3;
   }
