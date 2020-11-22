@@ -388,14 +388,13 @@ body {
         flex-wrap: wrap;
   }
   .fl__text {
-    color: red;
+    color: green;
     font-size: 15px;
     line-height: 15px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
   }
   .fl__sudtitle {
-    margin-right: 130px;
     font-size: 15px;
     line-height: 22px;
     font-family: 'Montserrat', sans-serif;
@@ -424,13 +423,12 @@ body {
     width: 0;
   }
   .fl__text {
-    color: red;
+    color: green;
     font-size: 12px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
   }
   .fl__sudtitle {
-    margin-right: 200px;
     font-size: 12px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
