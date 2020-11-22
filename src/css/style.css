@@ -381,7 +381,9 @@ body {
 
 @media (max-width: 540px) {
   .fl {
-    padding: 20px;
+    padding-right: 20px;
+    width: none;
+    margin: auto;
   }
   .fl__text {
     font-size: 15px;
