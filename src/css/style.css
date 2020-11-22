@@ -381,19 +381,17 @@ body {
 
 @media (max-width: 540px) {
   .fl {
-    padding-right: 20px;
     width: none;
-    margin: auto;
   }
   .fl__text {
-    color: green;
+    color: blue;
     font-size: 15px;
     line-height: 15px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
   }
   .fl__sudtitle {
-    padding-right: 150px;
+    margin-right: 130px;
     font-size: 15px;
     line-height: 22px;
     font-family: 'Montserrat', sans-serif;
@@ -407,6 +405,29 @@ body {
   }
   .fl-icon {
     margin-left: 5px;
+  }
+}
+
+@media (max-width: 340px) {
+  .fl {
+    width: none;
+  }
+  .fl__text {
+    color: blue;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+  }
+  .fl__sudtitle {
+    margin-right: 200px;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+  }
+  .fl__title {
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
   }
 }
 
