@@ -78,3 +78,15 @@ $(document).ready(function () {
     });
 });
 
+@media (max-width: 720px)
+    .cats
+        justify-content: center
+@media (max-width: 540px)
+    .cats
+        justify-content: center
+
+
+
+@media (max-width: 340px)
+    .cats
+        justify-content: center

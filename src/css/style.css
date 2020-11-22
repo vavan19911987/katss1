@@ -574,35 +574,11 @@ body {
   line-height: 20p;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
+  /** секция с кнопкое (показать еще) */
 }
 
 .buttom:hover {
   background-color: #79d0eb;
-}
-
-@media (max-width: 720px) {
-  .cats {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-}
-
-@media (max-width: 540px) {
-  .cats {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-}
-
-@media (max-width: 340px) {
-  .cats {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  /** секция с кнопкое (показать еще) */
 }
 
 .more {
@@ -630,6 +606,38 @@ body {
   left: 21px;
   max-width: 60px;
   max-height: 60px;
+}
+
+@media (max-width: 720px) {
+  .cats {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media (max-width: 750px) {
+  .cats {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media (max-width: 540px) {
+  .cats {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media (max-width: 340px) {
+  .cats {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 .footer {
