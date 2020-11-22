@@ -42,11 +42,13 @@
 // @media (max-width: 960px)
 // @media (max-width: 720px)
 @media (max-width: 540px)
-    .fl
-        width: none
+    .fl-block
+        display: flex
+        flex-wrap: wrap
 
+    .fl
         &__text
-            color: blue
+            color: red
             font-size: 15px
             line-height: 15px
 
@@ -64,11 +66,15 @@
     .fl-icon
         margin-left: 5px
 @media (max-width: 340px)
+    .fl-block
+        display: flex
+        flex-wrap: wrap
+
     .fl
-        width: none
+        width: 0
 
         &__text
-            color: blue
+            color: red
             font-size: 12px
 
             +bold
