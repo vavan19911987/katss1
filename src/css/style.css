@@ -345,9 +345,10 @@ body {
   color: #000;
 }
 
-.up {
+#scrollTop {
   float: right;
   background-color: #6EBBD3;
+  cursor: pointer;
 }
 
 .up-up {
