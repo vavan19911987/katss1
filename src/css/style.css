@@ -386,6 +386,7 @@ body {
     margin: auto;
   }
   .fl__text {
+    color: red;
     font-size: 15px;
     line-height: 15px;
     font-family: 'Montserrat', sans-serif;
