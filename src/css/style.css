@@ -252,6 +252,9 @@ body {
 }
 
 @media (max-width: 720px) {
+  .nav__logo {
+    margin-left: 60px;
+  }
   .nav__logo img {
     width: 60px;
   }
@@ -263,13 +266,11 @@ body {
     display: none;
   }
   .nav__text {
-    color: red;
-    margin-right: 44px;
-    position: relative;
-    z-index: 3;
+    display: none;
   }
   .nav__subtitle {
     font-size: 25px;
+    margin-left: 60px;
   }
 }
 
@@ -291,6 +292,9 @@ body {
     background: rgba(0, 0, 0, 0.5);
     z-index: 2;
   }
+  .nav__logo {
+    margin-left: 0px;
+  }
   .nav__logo img {
     width: 60px;
   }
@@ -300,11 +304,9 @@ body {
   .nav__phone {
     display: inline;
   }
-  .nav__text {
-    z-index: 2;
-  }
   .nav__subtitle {
     font-size: 25px;
+    margin-left: 0;
   }
   .nav__title {
     margin-right: 15px;
