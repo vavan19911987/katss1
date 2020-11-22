@@ -1,0 +1,79 @@
+// html //
+<div class="menu-link">
+		<span></span>
+		<span></span>
+		<span></span>
+	</div>
+
+// css //
+
+.menu-link {
+	position: fixed;
+	left: 20px;
+	top: 20px;
+	background-color: #fff;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	box-shadow: 1px 1px 10px rgba(255, 255, 255, .3);
+}
+.menu-link span {
+	position: absolute;
+	width: 20px;
+	height: 2px;
+	background-color: #000;
+	top: 50%;
+	left: 50%;
+	margin-top: -1px;
+	margin-left: -10px;
+}
+.menu-link span:nth-child(1) {
+	transform: translateY(-6px);
+}
+.menu-link span:nth-child(3) {
+	transform: translateY(6px);
+}
+.menu-link:hover {
+	cursor: pointer;
+}
+.menu-link:hover span:nth-child(3) {
+	transform-origin: 0% 0%;
+	transform: translateY(6px) rotate(-33deg);
+	width: 10px;
+	margin-left: 0;
+}
+.menu-link:hover span:nth-child(1) {
+	transform-origin: 0% 0%;
+	transform: translateY(-6px) rotate(31deg);
+	width: 12px;
+	margin-left: 0;
+}
+
+
+// js //
+
+
+
+$(document).ready(function () {
+    var menuLink = $('.menu-link');
+    var menu = $('menu');
+    var close = $('.close-btn');
+    var navLink = $('li a');
+
+    menuLink.click(function () {
+        menu.toggleClass('active-menu');
+    });
+    close.click(function () {
+        menu.removeClass('active-menu');
+    });
+
+    navLink.on('click', function (event) {
+        event.preventDefault();
+        var target = $(this).attr('href');
+        // console.log(target);
+        var top = $(target).offset().top;
+        // console.log(top);
+        $('html,body').animate({scrollTop: top}, 500)
+        
+    });
+});

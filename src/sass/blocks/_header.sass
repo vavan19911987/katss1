@@ -21,6 +21,9 @@
   background: rgba(0,0,0,.5)
   z-index: 2
 
+.menu-link
+    display: none
+
 
 
 .nav
@@ -76,7 +79,144 @@
 
 
 
+    // бургер
+.m-menu 
+	width: 27px
+	height: 27px
+	background-color: transparent
+	/* display: flex; */
+	flex-direction: column
+	justify-content: space-around
+	display: none
+
+
+.m-menu .line 
+	width: 100%
+	height: 1px
+	background-color: #fff
+
+
+
+// .menu-link
+// 	position: relative
+// 	left: 20px
+// 	top: 20px
+// 	background-color: #fff
+// 	width: 50px
+// 	height: 50px
+// 	border-radius: 50%
+// 	box-shadow: 1px 1px 10px rgba(255, 255, 255, .3)
+
+// .menu-link span 
+// 	position: absolute
+// 	width: 20px
+// 	height: 2px
+// 	background-color: #000
+// 	top: 50%
+// 	left: 50%
+// 	margin-top: -1px
+// 	margin-left: -10px
+
+// .menu-link span:nth-child(1) 
+// 	transform: translateY(-6px)
+
+// .menu-link span:nth-child(3) 
+// 	transform: translateY(6px)
+
+// .menu-link:hover 
+// 	cursor: pointer
+
+// .menu-link:hover span:nth-child(3) 
+// 	transform-origin: 0% 0%
+// 	transform: translateY(6px) rotate(-33deg)
+// 	width: 10px
+// 	margin-left: 0
+
+// .menu-link:hover span:nth-child(1) 
+// 	transform-origin: 0% 0%
+// 	transform: translateY(-6px) rotate(31deg)
+// 	width: 12px
+// 	margin-left: 0
+
     
+
+
+@media (max-width: 1200px)
+    .nav
+        &__menu
+            padding-right: 150px
+        &__phone
+            font-size: 25px
+        &__subtitle
+            font-size: 30px
+@media (max-width: 960px)
+    .nav
+        &__logo 
+            img
+                width: 60px
+        &__menu
+            padding-right: 50px
+            font-size: 15px
+
+        &__phone
+            font-size: 20px
+        &__subtitle
+            font-size: 25px
+            
+@media (max-width: 720px)
+    .nav
+        &__logo 
+            img
+                width: 60px
+        &__menu
+            padding-right: 50px
+            font-size: 15px
+
+        &__phone
+            display: none
+        &__text
+            position: relative
+            z-index: 3
+                
+        &__subtitle
+            font-size: 25px
+
+@media (max-width: 540px)
+    .m-menu
+        display: flex
+        z-index: 3
+        cursor: pointer
+    .head:after 
+        content: ''
+        position: absolute
+        top: 6px
+        left: 0
+        right: 0
+        bottom: 0
+        background: rgba(0,0,0,.5)
+        z-index: 2
+    .nav
+        &__logo 
+            img
+                width: 60px
+        &__menu
+            display: none
+
+
+        &__phone
+            display: inline
+        &__text
+            z-index: 2
+                
+        &__subtitle
+            font-size: 25px
+        &__title
+            margin-right: 15px    
+
+
+                
+
+
     
 
 
