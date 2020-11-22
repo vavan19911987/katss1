@@ -331,6 +331,12 @@ body {
   }
 }
 
+@media (max-width: 340px) {
+  .nav__phone {
+    display: none;
+  }
+}
+
 .fl {
   display: -webkit-box;
   display: -ms-flexbox;
