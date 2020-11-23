@@ -74,9 +74,51 @@
     +bold
     &:hover
         background-color: $color-hov
-       
 
-    /** секция с кнопкое (показать еще)  
+
+@media (max-width: 960px)
+    .cats div:nth-child(5)
+        display: none
+    .cats div:nth-child(6)
+        display: none
+    .cats div:nth-child(4)
+        // width: 40%
+
+@media (max-width: 750px)
+    .cats
+        justify-content: center
+    .cats div:nth-child(5)
+        display: none
+    .cats div:nth-child(6)
+        display: none
+    .cats div:nth-child(4)
+        display: none
+        // width: 40%
+
+
+@media (max-width: 540px)
+    .cats
+        justify-content: center
+
+
+
+@media (max-width: 340px)
+    .cats
+        justify-content: center
+    .cats div:nth-child(5)
+        display: none
+    .cats div:nth-child(6)
+        display: none
+    .cats div:nth-child(4)
+        display: none
+        // width: 40%    
+    .cats div:nth-child(3)
+        display: none
+   
+
+
+
+/** секция с кнопкое (показать еще)  
 
  
 .more
@@ -92,35 +134,33 @@
         
 
 
-#scrollTop
-    float: right    
-    background-color: $color-up  
-    cursor: pointer
 .up-up
     position: relative
     top: 22px
     left: 21px
     max-width: 60px
     max-height: 60px
+#scrollTop
+    position: relative
+    float: right    
+    background-color: $color-up  
+    cursor: pointer
 
 
-
-
-@media (max-width: 720px)
-    .cats
-        justify-content: center
-@media (max-width: 750px)
-    .cats
-        justify-content: center
+@media (max-width: 1200px)
+    #scrollTop
+        bottom: 30px
+        right: 50px
 
 @media (max-width: 540px)
-    .cats
-        justify-content: center
-
+    .more
+        &__text
+            padding: 26px 60px
+    #scrollTop
+        bottom: 24px
+        right: 50px
 
 
 @media (max-width: 340px)
-    .cats
-        justify-content: center
-
-
+    #scrollTop
+        display: none
