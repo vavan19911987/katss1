@@ -792,3 +792,49 @@ body {
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.2);
           box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.2);
 }
+
+@media (max-width: 960px) {
+  .bl-1 {
+    display: none;
+  }
+  .bl-2 {
+    margin: auto;
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 740px) {
+  .bl-2 {
+    margin-right: -25px;
+  }
+}
+
+@media (max-width: 540px) {
+  .bl-2 {
+    text-align: center;
+  }
+  .email {
+    margin-top: 45px;
+  }
+  .button {
+    margin: 0;
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 340px) {
+  .bl-2 {
+    text-align: center;
+    margin: auto;
+  }
+  .email {
+    margin-top: 45px;
+  }
+  .button {
+    margin: 0;
+    margin-top: 15px;
+  }
+  .check {
+    margin-bottom: 30px;
+  }
+}
