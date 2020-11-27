@@ -219,9 +219,9 @@
 						<h3 class="bl-1__title">Подпишись и успей <br /> словить все акции</h3>
 					</div>
 					<div class="bl-2" id="проба">
-						<form action="">
-							<input class="email" type="email" placeholder="Email">
-							<button class="button">Подписаться</button>
+						<form action="#" class="js-validate">
+							<input class="email field" type="email" placeholder="Email" >
+							<button type="submit" class="button" id="show-modal" data-modal="exit">Подписаться</button>
 						</form>
 						<div class="check">
 							<input type="checkbox" class="checkbox" id="checkbox" />
@@ -231,12 +231,21 @@
 					</div>
 				</footer>
 				</div>
+				<div class="js-modal" data-modal="exit">
+					<p class="js-title">Вы подписанны</p>
+					<p class="js-subtitle">Благодарим за подписку проверьте адрес электронной почты</p>
+					<a href="#">
+						<svg class="modal-closse" width="15" height="15">
+							<use xlink:href="img/icons.svg#close"></use>
+						</svg>
+					</a>
+				</div>
+				<div class="overlay"></div>
 
 			</main>
 
-
-
-		<script src="js/main.js"></script>
+			<script src="js/jquery-3.5.1.min.js"></script>
+			<script src="js/main.js"></script>
 	</body>
 </html>
 
