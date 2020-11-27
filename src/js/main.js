@@ -56,7 +56,6 @@ var insertBefore = function () {
             close.classList.remove('is-show');
             var close = document.querySelector('.overlay');
             close.classList.remove('js-overlay');
-
          });
 
       }

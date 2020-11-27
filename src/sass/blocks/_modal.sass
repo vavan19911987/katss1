@@ -4,9 +4,13 @@
     top: 50%
     left: 50%
     transform: translate(-50%, -50%)
+    width: 700px
+    min-width: 330px
     z-index: 30
     background-color: #fff
     box-shadow: 0 0 10px rgba(0,0,0,5)
+    animation-duration: 1s
+    animation-name: slidein
     display: none
 
 .js-title
@@ -19,6 +23,7 @@
     +bold
 
 .js-subtitle
+    position: relative
     color: black
     font-size: 35px
     padding: 15px
@@ -50,4 +55,12 @@
 .is-show
     display: block    
     
+@keyframes slidein 
+  from 
+    left: 10%
+  
+  to 
+    left: 50%
+  
+  
 
