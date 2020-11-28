@@ -60,7 +60,7 @@ var insertBefore = function () {
 
       }
    }
-}
+};
 
 
 
@@ -71,6 +71,22 @@ form.addEventListener('submit', function (event) {
    insertBefore();
 });
 
+
+// событие на бургер
+
+var burger = document.querySelector('.m-menu');
+   burger.addEventListener('click', function (event) {
+      event.preventDefault();
+      var burger = document.querySelector('.mobal-menu');
+      burger.classList.add('mobal-menu-m');
+
+});
+var modalMobail = document.querySelector('.modal-closs');
+modalMobail.addEventListener('click', function (event) {
+   event.preventDefault();
+   var modalMobail = document.querySelector('.mobal-menu');
+   modalMobail.classList.remove('mobal-menu-m')
+});
 
 
 
