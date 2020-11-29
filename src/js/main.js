@@ -89,6 +89,15 @@ modalMobail.addEventListener('click', function (event) {
 });
 
 
+var emailDel = document.querySelector('.email');
+emailDel.addEventListener('click', function (event) {
+   event.preventDefault();
+   var emailDel = document.querySelector('.error');
+   emailDel.classList.add('error-r');
+   // console.log('ok')
+})
+
+
 
 
 

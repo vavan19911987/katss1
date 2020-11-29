@@ -810,6 +810,10 @@ body {
   font-weight: 700;
 }
 
+.error-r {
+  display: none;
+}
+
 @media (max-width: 960px) {
   .bl-1 {
     display: none;
