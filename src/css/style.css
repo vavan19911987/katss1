@@ -694,7 +694,7 @@ body {
 @media (max-width: 320px) {
   #scrollTop {
     top: 35px;
-    left: 3px;
+    left: 2px;
   }
 }
 
@@ -942,6 +942,22 @@ body {
   }
   to {
     left: 50%;
+  }
+}
+
+@media (max-width: 340px) {
+  .js-modal {
+    width: 50px;
+  }
+  .js-title {
+    font-size: 25px;
+  }
+  .js-subtitle {
+    display: none;
+  }
+  .modal-closse {
+    right: 20px;
+    top: -5px;
   }
 }
 
